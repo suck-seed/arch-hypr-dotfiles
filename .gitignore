@@ -1,0 +1,21 @@
+# Ignored files/folders
+.dmenurc
+cachyos-hello.json
+Kvantum/
+cachyos/
+dconf/
+go/
+gtk-3.0/
+gtk-4.0/
+mako/
+micro/
+mozilla/
+octopi/
+qt5ct/
+spicetify/
+spotify/
+starship.toml
+swaylock/
+user-dirs.dirs
+user-dirs.locale
+wofi/
