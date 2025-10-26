@@ -119,7 +119,7 @@
         "format": "{format_source}",
         "format-source": "  ",
         "format-source-muted": " ",
-        "on-click": "~/.config/hypr/scripts/mute_mic_script.sh",
+        "on-click": "bash ~/.config/hypr/scripts/mute_mic_script.sh",
         "on-click-right": "pavucontrol",
         "on-scroll-up": "pamixer --default-source -i 5",
         "on-scroll-down": "pamixer --default-source -d 5",
@@ -161,7 +161,7 @@
     },
     "custom/flag": {
         "tooltip": true,
-        "exec" : "~/.config/waybar/scripts/flag.py",
+        "exec" : "~/.config/waybar/scripts/venv/bin/python3 ~/.config/waybar/scripts/flag.py",
         "interval": 60,
         "return-type" : "json",
         "format": "{}"

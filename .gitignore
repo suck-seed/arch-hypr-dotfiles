@@ -19,3 +19,11 @@ swaylock/
 user-dirs.dirs
 user-dirs.locale
 wofi/
+autostart/
+net.imput.helium/
+nwg-look/
+systemd/user/
+tlpui/
+xsettingsd/
+yay/
+zed/

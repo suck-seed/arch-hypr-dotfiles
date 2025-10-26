@@ -5,10 +5,10 @@ MUTE_STATUS=$(pactl list sources | grep -A 10 $CURRENT_SOURCE | grep "Mute")
 IS_MUTE=$(echo "$MUTE_STATUS" | awk '{print $NF}')
 
 STATUS=1
-if [ $IS_MUTE != "no" ]; then 
-  STATUS=0 
-fi 
+if [ $IS_MUTE != "no" ]; then
+  STATUS=0
+fi
 
 TEMP=$(echo $STATUS| sudo tee /sys/class/leds/platform\:\:micmute/brightness)
 
-pactl -- set-source-mute 0 toggle 
+pactl -- set-source-mute 0 toggle

@@ -5,6 +5,8 @@
     font-weight: bold;
     font-size: 16px;
     min-height: 0; }
+
+
 window#waybar {
     background: rgba(21, 18, 27, 0);
     color: #2b2b2c;
